@@ -1,0 +1,4 @@
+
+<div class="card-group d-flex flex-column" *ngFor="let chirp of chirps$ | async">
+    <app-chirp [chirp]="chirp"></app-chirp>
+</div>
